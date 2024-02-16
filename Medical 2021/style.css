@@ -1,0 +1,165 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b3e6ff; /* Light grey background */
+    color: #333; /* Dark text color */
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #02427e; /* NHS Blue */
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+.navigation {
+    margin-top: 20px;
+}
+
+.navigation a {
+    color: #ffffff; /* NHS Blue */
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navigation a:hover {
+    color: #00247d; /* Darker blue on hover */
+}
+
+/* Main section styles */
+.main {
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Adjust the color as needed */
+    text-align: center;
+    font-size: 3em; /* Adjust the font size as needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: Add text shadow for better visibility */
+}
+
+
+.covid {
+    margin-top: 50px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: #005eb8;
+    color: #fff; /* White text color for footer */
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer h4 {
+    margin-bottom: 20px;
+}
+
+/* Center the slideshow */
+.slideshow-container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center; /* Center align the content inside the container */
+    position: relative;
+}
+
+/* Style the slides */
+.slides {
+    display: none; /* Hide all slides by default */
+    margin: auto; /* Center the slide horizontally */
+}
+
+/* Style the radio buttons */
+.round-btn {
+    display: none; /* Hide the actual radio buttons */
+}
+
+/* Style the labels to mimic the appearance of buttons */
+.round-btn + label {
+    display: inline-block;
+    border: 2px solid #f1f1f1;
+    border-radius: 50%; /* Makes the label round */
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0 5px; /* Adjust the spacing between buttons */
+}
+
+/* Change label background color when checked */
+.round-btn:checked + label {
+    background-color: #f1f1f1;
+}
+
+/* Change label text color when checked */
+.round-btn:checked + label {
+    color: #333;
+}
+
+/* Hover effect */
+.round-btn + label:hover {
+    background-color: #ddd;
+}
+
+
+/* Video section styles */
+.video {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* Caption styles */
+#caption {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#caption-title {
+    color: #005eb8; /* NHS Blue */
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#caption-body {
+    color: #005eb8; /* NHS Blue */
+    font-size: 1.1rem;
+}
+
+/* Header 2 styles */
+#header {
+    text-align: center;
+    margin-top: 50px;
+    color: #005eb8; /* NHS Blue */
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
